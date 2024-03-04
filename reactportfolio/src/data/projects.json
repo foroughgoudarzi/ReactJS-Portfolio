@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "GlobeGlide",
+    "repository": "https://github.com/foroughgoudarzi/GlobeGlide",
+    "page": "https://foroughgoudarzi.github.io/GlobeGlide/",
+    "image": "https://github.com/foroughgoudarzi/GlobeGlide/blob/main/Assets/images/globeglide-app.png?raw=true",
+    "description": "The GlobeGlide application is designed to be accessed via web browsers, offering dynamically updated HTML and CSS for an engaging user experience.\nLeveraging various Web APIs, this application provides valuable information for travelers exploring different countries. The following Web APIs have been used to fetch data.\nAPI Ninjas: Using a country name, the country two-letter ISO code and the three-letter currency code is fetched from API Ninjas. Then by utilizing the country's two-letter ISO code, three popular cities in the country and their coordinates are fetched from API Ninjas.\nExchangeRate-API: Using the fetched country currency code obtained from API Ninjas, three query is made to Exchange-Rate API to optain exchange rate to 'GBP', 'USD' and 'EUR'.\nFOURSQUARE Places API: Using city coordinates obtained earlier, this API retrieves points of interest, such as monuments, hotels, etc along with their photo codes (fsq_id). Then with this code, the application fetches the respective photo URLs.\nGoogle Maps Geocoder API: This API facilitates the retrieval of city maps to enhance the user experience."
+  },
+  {
+    "id": 2,
+    "title": "Weather-Dashboard",
+    "repository": "https://github.com/foroughgoudarzi/Weather-Dashboard",
+    "page": "https://foroughgoudarzi.github.io/Weather-Dashboard/",
+    "image": "https://github.com/foroughgoudarzi/Weather-Dashboard/blob/main/images/weather-app.png?raw=true",
+    "description": "This project presents an interactive weather dashboard designed to run in web browsers, leveraging dynamically updated HTML and CSS.\nUtilizing the OpenWeather APIs, this application fetches and displays current weather conditions and a five-day forecast for cities.\nIn an effort to expedite information retrieval, the application stores the coordinates and names of the last six queried cities.\nThis caching mechanism ensures that subsequent queries for these cities bypass the initial coordinate retrieval step, optimizing data display speed."
+  },
+  {
+    "id": 3,
+    "title": "Day-Task-Tracker",
+    "repository": "https://github.com/foroughgoudarzi/Day-Task-Tracker",
+    "page": "https://foroughgoudarzi.github.io/Day-Task-Tracker/",
+    "image": "https://github.com/foroughgoudarzi/Day-Task-Tracker/blob/main/images/scheduler.png?raw=true",
+    "description": "This project implements a user-friendly calendar application designed to operate within web browsers. Users can add/remove and save events for every working hour of the day.\nPowered by a combination of DOM manipulation, advanced JavaScript, Web and JQuery APIs, as well as the Day.js library and Bootstrap, this application features a dynamically updated user interface, with HTML and CSS evolving in real-time."
+  },
+  {
+    "id": 4,
+    "title": "JavaScript-Quiz",
+    "repository": "https://github.com/foroughgoudarzi/JavaScript-Quiz",
+    "page": "https://foroughgoudarzi.github.io/JavaScript-Quiz/",
+    "image": "https://github.com/foroughgoudarzi/JavaScript-Quiz/blob/main/assets/animation/coding-quiz.gif?raw=true",
+    "description": "This project involves creating a browser-based JavaScript quiz application, showcasing dynamically updated HTML and CSS facilitated by JavaScript code and implemented through Web API.\nUpon initiation, users can begin the quiz by clicking the start button. A timer commences, and successive multiple-choice questions are presented. Answering a question incorrectly results in a deduction of ten seconds from the timer. The quiz concludes when all questions are answered or the timer reaches zero. Participants can then input their initials, and their scores are stored.\nFurthermore, the system retains and displays the highest score achieved by each individual in a designated highest scores list."
+  },
+  {
+    "id": 5,
+    "title": "Adjustable-Password-Generator",
+    "repository": "https://github.com/foroughgoudarzi/Adjustable-Password-Generator",
+    "page": "https://foroughgoudarzi.github.io/Adjustable-Password-Generator/",
+    "image": "https://github.com/foroughgoudarzi/Adjustable-Password-Generator/blob/main/images/prompting.png?raw=true",
+    "description": "In this project, we've developed an Adjustable Password Generator application, enabling users to generate a customized, random password based on their specified criteria.\nThis browser-based app functions by allowing users to select the desired password length and the specific character types they want to include.\nUpon clicking the Generate Password button, the application generates a password, displaying it on the screen."
+  },
+  {
+    "id": 6,
+    "title": "Staff-Profile-Generator",
+    "repository": "https://github.com/foroughgoudarzi/Staff-Profile-Generator",
+    "page": "",
+    "image": "https://github.com/foroughgoudarzi/Staff-Profile-Generator/blob/main/assets/images/staff-profile.png?raw=true",
+    "description": "This command-line application collects information about employees within a software engineering team and automatically generates an HTML webpage to showcase individual summaries.\nThe application uses 'Inquirer' to prompts users with questions about the team.\nThe collected input is then utilized to instantiate objects for each team member, leveraging the 'Manager', 'Engineer', and 'Intern' classes stored within the 'assets/lib/' directory.\nUpon completion of the question prompts, the application automatically compiles the gathered information into an HTML file, providing a overview of the team's details."
+  }
+]
