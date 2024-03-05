@@ -3,7 +3,6 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
-import HeaderF from './components/HeaderF'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home' 
 import Projects from './components/Projects' 
