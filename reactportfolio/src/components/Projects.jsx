@@ -37,7 +37,7 @@ function Projects() {
 
   return (
     <>
-      <p>This page shows the list of projects</p>
+      <h3 className="mt-5 text-center">This page shows a collection of my sample projects, each crafted with passion and precision. <br/> Click on a project</h3>
       <div>{projectLink}</div>
       <Routes>
         {projectRoute}
