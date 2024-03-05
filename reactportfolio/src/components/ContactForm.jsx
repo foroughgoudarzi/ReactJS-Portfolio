@@ -33,7 +33,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="container">
+    <div className="container mt-2">
       <form>
         <div className="form-group">
           <label htmlFor="exampleFormControlTextarea2">Name:</label>
@@ -79,7 +79,7 @@ function ContactForm() {
         <button
           onClick={handleFormSubmit}
           type="submit"
-          className="btn btn-primary mt-2 mb-4"
+          className="btn btn-info mt-2 mb-4 ps-4 pe-4"
         >
           Submit
         </button>

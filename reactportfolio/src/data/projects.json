@@ -43,7 +43,7 @@
     "id": 6,
     "title": "Staff-Profile-Generator",
     "repository": "https://github.com/foroughgoudarzi/Staff-Profile-Generator",
-    "page": "",
+    "page": "https://github.com/foroughgoudarzi/Staff-Profile-Generator",
     "image": "https://github.com/foroughgoudarzi/Staff-Profile-Generator/blob/main/assets/images/staff-profile.png?raw=true",
     "description": "This command-line application collects information about employees within a software engineering team and automatically generates an HTML webpage to showcase individual summaries.\nThe application uses 'Inquirer' to prompts users with questions about the team.\nThe collected input is then utilized to instantiate objects for each team member, leveraging the 'Manager', 'Engineer', and 'Intern' classes stored within the 'assets/lib/' directory.\nUpon completion of the question prompts, the application automatically compiles the gathered information into an HTML file, providing a overview of the team's details."
   }

@@ -7,6 +7,10 @@ function Project(props) {
       boxShadow: "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px 5px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",
       
    },
+
+   footerStyle: {
+    backgroundColor: "#3a506b",
+   }
   }
   return (
     <div  className="d-flex justify-content-center mt-3">
@@ -16,7 +20,7 @@ function Project(props) {
         <Card.Title className="text-center">{props.title}</Card.Title>
         <Card.Text>{props.description}</Card.Text>
       </Card.Body>
-      <Card.Footer>
+      <Card.Footer style={styles.footerStyle}>
         <small className="text-muted d-flex justify-content-center" ><a href={props.repository}>GitHub repository</a></small>
         <hr />
         <small className="text-muted d-flex justify-content-center"><a href={props.page}>Web site</a></small>

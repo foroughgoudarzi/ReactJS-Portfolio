@@ -3,12 +3,15 @@ import ForoughPhoto from '../images/Forough.png'
 function Home(){
     const styles ={
         
-        fontStyle: {
-            color: "#0B132B"
-        },
+        // fontStyle: {
+        //     color: "#0B132B"
+        // },
 
         imgStyle: {
-           boxShadow: "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px 5px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",
+           boxShadow: "0 0 30px rgba(200, 230, 255, 0.9)",
+           border: "2px solid #5bb6e7",
+           marginBottom: "20px",
+           marginTop: "20px",
            
         },
 
@@ -17,13 +20,14 @@ function Home(){
                
                 textAlign: "center",
               
+                
+              
         }
-
     }
 
       
 return (
-   <div style={styles.fontStyle}>
+   <div>
 <figure style={styles.figureStyle}>
 <img className="rounded-circle w-25 " src={ForoughPhoto} alt="Forough photo" style={styles.imgStyle}/>
 <figcaption className="fs-2 text-center">Welcome to Forough's Portfolio!</figcaption>

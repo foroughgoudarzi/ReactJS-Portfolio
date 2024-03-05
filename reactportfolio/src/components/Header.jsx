@@ -1,6 +1,12 @@
 import { NavLink } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 
+const styles={
+  navColor: {
+    color: "#5bb6e7",
+  }
+} 
+
 function Header() {
   return (
     
@@ -9,6 +15,7 @@ function Header() {
         <NavLink
           to="/"
           end
+          style={styles.navColor}
           className={({ isActive }) =>
             isActive ? "nav-link active ps-md-4 pe-md-4" : "nav-link ps-md-4 pe-md-4"
           }
@@ -20,6 +27,7 @@ function Header() {
         <NavLink
           to="/projects"
           end
+          style={styles.navColor}
           className={({ isActive }) =>
             isActive ? "nav-link active ps-md-4 pe-md-4" : "nav-link ps-md-4 pe-md-4"
           }
@@ -32,6 +40,7 @@ function Header() {
         <NavLink
           to="/contact"
           end
+          style={styles.navColor}
           className={({ isActive }) =>
             isActive ? "nav-link active ps-md-4 pe-md-4" : "nav-link ps-md-4 pe-md-4"
           }
