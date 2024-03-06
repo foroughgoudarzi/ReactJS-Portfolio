@@ -1,11 +1,7 @@
 import ForoughPhoto from "../images/Forough.png";
 
-function Home() {
-  const styles = {
-    // fontStyle: {
-    //     color: "#0B132B"
-    // },
-
+const styles = {
+    
     imgStyle: {
       border: "2px solid #5bb6e7",
       marginBottom: "20px",
@@ -16,6 +12,9 @@ function Home() {
       textAlign: "center",
     },
   };
+
+// This component renders the home page 
+function Home() {
 
   return (
     <div>

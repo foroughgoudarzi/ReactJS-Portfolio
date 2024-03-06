@@ -1,5 +1,6 @@
 import { Card } from "react-bootstrap";
 
+// This component renders a card that contains a project information
 function Project(props) {
   const styles = {
     cardStyle: {

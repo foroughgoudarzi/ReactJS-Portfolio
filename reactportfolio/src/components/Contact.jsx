@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactForm from "./ContactForm";
 
+// This component renders the contact page 
 function Contact() {
   return (
     <div>

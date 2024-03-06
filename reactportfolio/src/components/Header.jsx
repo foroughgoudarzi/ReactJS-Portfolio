@@ -7,7 +7,9 @@ const styles = {
   },
 };
 
+// This component renders the header of pages
 function Header() {
+  
   return (
     <Nav
       variant="tabs"

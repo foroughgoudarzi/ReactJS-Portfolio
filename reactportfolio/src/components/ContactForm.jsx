@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
+// This component renders the contact form in the contact page
 function ContactForm() {
-  // Setting initial state to an object
+  // Setting initial state for the contact form
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -9,7 +10,8 @@ function ContactForm() {
   });
 
   const handleInputChange = (event) => {
-    // Getting the value and name of the input which triggered the change
+   
+    // Getting the value and name of the inputs which triggered the change
     const { name, value } = event.target;
 
     // Updating the input's state
@@ -20,13 +22,16 @@ function ContactForm() {
   };
 
   const handleFormSubmit = (event) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
+    // Preventing the default behavior of the form submit
     event.preventDefault();
 
-    // Alert the user their first and last name, clear `formData.firstName` and `formData.lastName`, clearing the inputs
-    alert(
-      `Thank you for contacting me ${formData.name}. I will get back to you as soon as possible.`
-    );
+    // Alerts the user their information has been submitted
+    if(!formData.name  || !formData.email || !formData.comment){
+     alert('Please enter the required information.')
+    } else {
+    alert(`Thank you for contacting me ${formData.name}. I will get back to you as soon as possible.`);
+    }
+    // Clears the inputs
     setFormData({
       name: "",
       email: "",

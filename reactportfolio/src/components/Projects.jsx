@@ -2,6 +2,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import projects from "../data/projects.json";
 import Project from "./Project";
 
+// This component renders the projects page
 function Projects() {
   const styles = {
     linkStyle: {
@@ -24,7 +25,6 @@ function Projects() {
     <Route
       key={element.id}
       path={element.title.toLowerCase()}
-      // path="/project"
       element={
         <Project
           image={element.image}
