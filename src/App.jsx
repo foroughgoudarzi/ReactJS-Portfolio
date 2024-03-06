@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="ReactJS-Portfolio" element={<Home />} />
         <Route path="projects/*" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
