@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // This component renders the contact form in the contact page
 function ContactForm() {

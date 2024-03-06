@@ -17,7 +17,7 @@ Below figure shows a screen shot of the application.
 
 <figure>
     <img src="./reactportfolio/src/images/portfolio.png" width="600"/>
-    <figcaption><em>A sample project page</em></figcaption>
+    <figcaption><em>Figure 1- A sample project page</em></figcaption>
 </figure>
 
 ## Installation
