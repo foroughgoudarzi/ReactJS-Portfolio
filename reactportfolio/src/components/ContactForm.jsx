@@ -24,11 +24,13 @@ function ContactForm() {
     event.preventDefault();
 
     // Alert the user their first and last name, clear `formData.firstName` and `formData.lastName`, clearing the inputs
-    alert(`Thank you for contacting me ${formData.name}. I will get back to you as soon as possible.`);
+    alert(
+      `Thank you for contacting me ${formData.name}. I will get back to you as soon as possible.`
+    );
     setFormData({
-      name: '',
-      email: '',
-      comment: ''
+      name: "",
+      email: "",
+      comment: "",
     });
   };
 
