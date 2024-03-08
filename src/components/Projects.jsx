@@ -44,7 +44,10 @@ function Projects() {
         passion and precision. <br /> Click on a project
       </h3>
       <div className="text-center">{projectLink}</div>
-      <Routes>{projectRoute}</Routes>
+      <Routes>
+      <Route index element={<Project image={projects[0].image} title={projects[0].title} description={projects[0].description} repository={projects[0].repository} page={projects[0].page} />} />
+        {projectRoute}
+      </Routes>
     </>
   );
 }
