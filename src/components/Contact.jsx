@@ -32,7 +32,7 @@ function Contact() {
         <i className="d-inline fa fa-file-pdf-o">
           <a
             className="me-3"
-            href="https://docs.google.com/document/d/1DPvTTten0_iI8qd9T_VZiWoQpgPobdCz1AUsd-VxsGQ/edit?usp=sharing"
+            href=""
           >
             {" "}
             CV
