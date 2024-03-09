@@ -2,7 +2,7 @@
 
 ## Description
 
-The [ReactJS Portfolio](https://thriving-clafoutis-1f224b.netlify.app/) project serves as a demonstration of a portfolio design implemented with React JS. The portfolio encompasses three primary pages: Home, Projects, and Contact.
+The [ReactJS Portfolio](https://main--fluffy-heliotrope-6d4968.netlify.app/) project serves as a demonstration of a portfolio design implemented with React JS. The portfolio encompasses three primary pages: Home, Projects, and Contact.
 
 Home Page
 The Home page functions as a welcoming landing page, presenting essential information such as name, a brief summary of skills, and a personal photo.
