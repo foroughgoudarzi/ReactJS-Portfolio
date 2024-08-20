@@ -30,7 +30,7 @@ function Home() {
         </figcaption>
       </figure>
       <p className="fs-5">
-        Skilled and dedicated Front-end developer with experience across various
+        Skilled and dedicated software developer with experience across various
         programming languages, including Java, C++, Ada, MATLAB, JavaScript,
         HTML, CSS, JQuery, Bootstrap, React and SQL. <br />
         Adept at technical documentation, with a background in research focusing
